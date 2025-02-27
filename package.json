@@ -9,9 +9,6 @@
   "scripts": {
     "dev": "tsx --watch src/main.ts",
     "start": "tsx src/main.ts",
-    "start:alpha": "node --experimental-strip-types --experimental-transform-types src/main.ts",
-    "dev:alpha": "ts-node src/main.ts",
-    "build:alpha": "tsc --outDir dist --jsx react-jsx --allowImportingTsExtensions --noEmit --target esnext --moduleResolution nodenext --module nodenext --esModuleInterop --allowSyntheticDefaultImports --rewriteRelativeImportExtensions --skipLibCheck --verbatimModuleSyntax src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -21,8 +18,6 @@
     "react-dom": "npm:@preact/compat"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2",
-    "tsx": "^4.19.3",
-    "typescript": "^5.7.3"
+    "tsx": "^4.19.3"
   }
 }
