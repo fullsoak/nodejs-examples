@@ -1,4 +1,5 @@
-import process from "node:process";
+import * as process from "node:process";
+import * as path from "node:path";
 import {
   type Context,
   Controller,
@@ -12,7 +13,9 @@ import { MyRouteAwareComponent } from "./components/MyRouteAwareComponent/index.
 
 setupDefaultFullsoakLogger();
 
-const GLOBAL_COMPONENTS_DIR: string = import.meta.dirname + "/components";
+const GLOBAL_COMPONENTS_DIR: string =
+  path.dirname(import.meta.url).replace("file://", "") +
+  "/components";
 
 @Controller()
 class MyController {
