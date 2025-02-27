@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@^0.14.0-alpha.6",
+    "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@0.14.0",
     "preact": "npm:preact@10.26.2",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat"

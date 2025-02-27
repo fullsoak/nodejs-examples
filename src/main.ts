@@ -30,7 +30,7 @@ class MyController {
   }
 }
 
-const port = Number(process.env["PORT"] || 0) ?? 3991;
+const port = Number(process.env["PORT"]) || 3991;
 
 useFullSoak({
   port,
