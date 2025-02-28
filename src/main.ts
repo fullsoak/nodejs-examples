@@ -36,6 +36,7 @@ class MyController {
 const port = Number(process.env["PORT"]) || 3991;
 
 useFullSoak({
+  hostname: "0.0.0.0",
   port,
   controllers: [MyController],
   componentsDir: GLOBAL_COMPONENTS_DIR,
