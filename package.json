@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "example using FullSoak framework on Node.js",
   "license": "MIT",
-  "author": "",
+  "author": "fullsoak",
   "type": "module",
   "main": "src/main.ts",
   "scripts": {
@@ -12,8 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@0.14.0",
-    "preact": "npm:preact@10.26.2",
+    "@fullsoak/fullsoak": "npm:@jsr/fullsoak__fullsoak@0.15.0",
+    "preact": "npm:preact@10.26.4",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat"
   },
